@@ -1,0 +1,33 @@
+{
+  "name": "demo-automation",
+  "version": "0.1.0",
+  "description": "Start a project's services, drive and record its apps in a real browser, run its end-to-end tests, and produce narrated video demos. Projects plug in with a demo.config.js; the tool knows nothing about them.",
+  "license": "MIT",
+  "author": "Eduardo Gómez Benavides",
+  "type": "commonjs",
+  "main": "lib/index.js",
+  "bin": {
+    "demo-automation": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "^1.62.1"
+  },
+  "keywords": [
+    "demo",
+    "video",
+    "narration",
+    "playwright",
+    "e2e",
+    "text-to-speech",
+    "screen-recording"
+  ]
+}
