@@ -14,7 +14,9 @@ its Playwright tests and demo scripts.
 - **Narrated demos:** turns a script of scenes into a video. Each scene's narration is
   generated with [edge-tts](https://github.com/rany2/edge-tts), the scene's real actions are
   recorded with Playwright, and ffmpeg places each audio clip exactly where its scene
-  started, so audio never drifts even when actions take longer than planned.
+  started, so audio never drifts even when actions take longer than planned. The video
+  starts a second before the first scene: setup the script does before it (off-camera data,
+  logins) is cut.
 - **Chrome for humans and bots at once:** opens a visible Chrome with remote debugging on a
   reusable copy of a profile, so you can click around while automation attaches over CDP.
 
